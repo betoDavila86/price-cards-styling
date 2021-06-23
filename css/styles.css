@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik&display=swap');
+
+:root{
+    --hue-color: 210;
+
+    /* COLORS */
+    --first-color: hsl(var(--hue-color), 96%, 54%);
+    --first-color-light: hsl(var(--hue-color), 96%, 69%);
+    --first-color-alt: hsl(var(--hue-color), 96%, 37%);
+    --first-color-lighter: hsl(var(--hue-color), 14%, 96%);
+    --title-color: hsl(var(--hue-color), 12%, 15%);
+    --text-color: hsl(var(--hue-color), 12%, 35%);
+    --text-color-light: hsl(var(--hue-color), 12%, 65%);
+    --white-color: #FFF;
+    --body-color: hsl(var(--hue-color), 100%, 99%);
+    --container-color: #FFF;
+
+    /* FONTS & TYPOGRAPHY */
+    --body-font: 'Lato', sans-serif;
+    --pricing-font: 'Kubik', sans-serif;
+    --biggest-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
+
+    /* MARGINS */
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-1: 1rem;
+    --mb-1-25: 1.25rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+}
+
+@media screen and (min-width: 968px) {
+    :root {
+    --biggest-font-size: 2.125rem;
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+    --tiny-font-size: .688rem;
+    }       
+}
+
+/* BASE */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* COMMON CSS CLASSES */
+
+.container{
+    max-width: 1024px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.grid{
+    display: grid;
+}
+
