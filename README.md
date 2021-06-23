@@ -1,4 +1,4 @@
 # Pricing card styling
 ### Created using HTML and CSS
 
-![screenshot-full](./assets/img/screenshot1.png)
+![screenshot-full](./screenshots/screenshot1.png)
